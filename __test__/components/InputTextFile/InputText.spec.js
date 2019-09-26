@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import renderer from "react-test-renderer";
-import FileNameForm from "./InputText";
+import FileNameForm from "../../../src/components/InputTextFile/InputText";
 import inputText from "input.txt";
 
 describe("Testing file name form for text file input module.", () => {
