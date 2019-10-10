@@ -1,0 +1,32 @@
+{
+  "name": "kwic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.3",
+    "npm-fetch": "0.0.9",
+    "readline-sync": "^1.4.10",
+    "sync-request": "^6.1.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx$": "babel-jest",
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
