@@ -8,8 +8,11 @@ O código desse repositório teve como objetivo explorar os conceitos de modular
 
 Após clonar o repositório, utilize o comando
 >npm install
+
 Feito isso, você pode executar a versão do programa que busca os títulos a serem indexados em um arquivo de texto usando o comando
 >nodemon --exec babel-node src/app.js
+
 Para executar a versão que busca os títulos a serem indexados da API do DBLP, utilize
 >nodemon --exec babel-node src/appWithDBLP.js
+
 e forneça o seu critério de busca no terminal.
